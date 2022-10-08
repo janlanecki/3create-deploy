@@ -1,0 +1,37 @@
+// smart contract that mints a hardcoded nft to a specified by parameter in solidity
+// deployment on optimism 
+    // how to deploy smart contract on optimism with hardhat
+    // how to interact with optimism smart contract to mint + airdrop from a website
+// deployment on polygon
+
+// replit website that calls the smart contract function to mint and send to wallet
+// set up test net
+
+// configure kids wallet and phone
+
+// for now data hardcoded
+// holding data on ipfs vs sismo?
+
+
+
+module.exports = {
+  networks: {
+    ...
+    // for mainnet
+    'optimism': {
+      url: "https://mainnet.optimism.io",
+      accounts: [privateKey1, privateKey2, ...]
+    },
+    // for testnet
+    'optimism-goerli': {
+      url: "https://goerli.optimism.io",
+      accounts: [privateKey1, privateKey2, ...]
+    },
+    // for the local dev environment
+    'optimism-local': {
+      url: "http://localhost:8545",
+      accounts: [privateKey1, privateKey2, ...]
+    },
+  },
+  ...
+}
