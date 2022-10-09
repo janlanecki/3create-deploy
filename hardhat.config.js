@@ -8,7 +8,7 @@ const privateKey = [`0x${PRIVATE_KEY}`]
 
 module.exports = {
    solidity: "0.8.4",
-   defaultNetwork: "goerli",
+   defaultNetwork: "optimism-goerli",
    networks: {
       hardhat: {},
       goerli: {

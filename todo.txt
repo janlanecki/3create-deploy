@@ -1,13 +1,14 @@
-// smart contract that mints a hardcoded nft to a specified by parameter in solidity
-// deployment on optimism 
-    // how to deploy smart contract on optimism with hardhat
-    // how to interact with optimism smart contract to mint + airdrop from a website
-// deployment on polygon
+// OK smart contract that mints a hardcoded nft to a specified by parameter in solidity
+// OK deployment on optimism 
+    // OK how to deploy smart contract on optimism with hardhat
+    // OK how to interact with optimism smart contract to mint + airdrop from a website
+// short standalone airdrop.js script + file for Jen
 
-// replit website that calls the smart contract function to mint and send to wallet
+// optional, prob no: replit website that calls the smart contract function to mint and send to wallet
 // set up test net
 
 // configure kids wallet and phone
+  STILL TO DO: have a collection address in the clipboard on the phone and know what id it'll have
 
 // for now data hardcoded
 // holding data on ipfs vs sismo?
